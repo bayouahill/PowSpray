@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-image: url(../Images/background2.jfif);
+    color: black;
+}
+a {
+    font-size: 13px;
+    color: crimson; 
+    text-decoration: none;
+}
+a:visited {color: maroon;}
+a:hover{font-size: 110%;}
+li{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.bold{font-weight: bold;}
+.justify{text-align: justify;}
+
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+
+    /*boarder: 1px solid grey; */
+
+}
+.common{
+    background-image: url(../Images/background2.jfif);
+    border: 1px solid lightgrey;
+    font-size: 20px;
+    color: rgb(52, 51, 51);
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 3;
+    border: none;
+    border-bottom: solid 1px maroon;
+}
+.subheader{
+    top: 110px;
+    left: 5px;
+    right: 5px;
+    height: 10px
+}
+.leftmenu{
+    top: 120px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 60px;
+    border: none;
+    border-right: solid 1px maroon;
+}
+
+.mainbody{
+    top: 120px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+    padding-top: 15px;
+    border: none;
+    z-index: 2;
+}
+
+.rightmenu{
+    top: 120px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    border: none;
+    border-left: solid 1px maroon;
+    padding-left: 5px;
+}
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 10px;
+    color: darkblue;
+    text-align: center;
+    position: fixed;
+    border: none;
+}
+.subheader{
+    float: right;
+    z-index: 1;
+}
+/*<div> class="common">Navigation</div>*/
+/*<div> class="common">Body</div>*/
+/*<div> class="common">Footer</div>*/
+/*<div> class="common">Header</div>*/
+/* Dropdown Button */

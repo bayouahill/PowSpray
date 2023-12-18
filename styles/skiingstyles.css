@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15 px;
+    color: black;
+   background-image: url(../Images/topo.jpg);
+    background-size: 50%;
+    }
+.bold { font-weight: bold;}
+
+a{ color: #02024099;}
+
+a:visited{color:#02024099;}
+
+.common{position: absolute;}
+
+.headerA {
+    height: 50px;
+    right: 250px;
+    z-index: 1;
+    border: none;
+    
+    border-bottom: solid 1px maroon;
+}
+.headerB{
+    height: 100px;
+    left: 250px;
+    border-bottom: solid 1px maroon;
+}
+.subheader{
+    top: 110px;
+    left: 5px;
+    right: 5px;
+    height: 10px
+}
+.mainbody{
+    top: 120px;
+    left: 50px;
+    right: 25px;
+    bottom: 39px;
+    padding-top: 15px;
+    border: none;
+}
+.footer{
+    bottom: 5px;
+
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 10px;
+    color: darkblue;
+    text-align: center;
+    position: fixed;
+    border: none;
+}
+.subheader{
+    float: right;
+    z-index: 1;
+}
+.float{float: right;}
+/*This is all to have a working dropdown menu*/
+
+ul li ul.dropdown li{display:block;}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: snow;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    text-align: center;
+}
+ul li a:hover {background: lightgrey;}
+
+ul li:hover ul.dropdown {
+    display: block;
+    width: 150px;
+    text-align: center;
+    z-index: 1;
+}
+ul {list-style: none;}
+
+.pain{
+    display: inline-block;
+    text-align: center;
+} 
+ul li a{
+    display: block;
+    width: fit-content;
+    padding: 20px 20px;
+    color: #02024099;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.ita{font-style: italic;}
+
+.box{
+    display: block;
+    background-color: rgba(219, 219, 219, 0.867);
+    padding: 5px;
+}
+.subtitle{
+    font-size: x-large;
+    text-decoration: underline;
+}
+.listheading{font-size: large;}
+
+.inline{
+    display: inline-block;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.wrap{
+    float: right;
+    margin: 10px;
+}
+.nobox{background-color: none;}
+
+.grabber{ font-size: large;}
